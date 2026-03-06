@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js -challenge '{"name": "epompeng45841 ", "description": "epompeng45841 AIAgent"}'
+          node scripts/manualLinkHumanToAgent.js -challenge '{"name": "epompeng45841", "description": "epompeng45841 AIAgent"}'
