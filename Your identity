@@ -1,0 +1,21 @@
+name : Your identity    
+ 
+on:  
+workflow description; 
+input; 
+agent name ;
+           description: Your identity "
+required: true 
+default:' Your identity '
+agent description :
+description: "your identity "
+required: true
+default: 'your identity Ai agent'
+
+jobs: 
+verfiy:
+run on: ' unbount latest '
+ steps: 
+name : ' check out'
+user:node scripts/manualLinkHumanToAgent.js --c
+hallenge '{"name": "you r identity", "description": "Short description of the agent"}'
